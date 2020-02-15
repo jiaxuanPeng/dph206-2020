@@ -1,0 +1,8 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">DPH206-2020</a></li>
+      after: |
+        <li><a href="./" target="blank">by Dr. Peng ZHAO and Dr. Lei HAN</a></li>

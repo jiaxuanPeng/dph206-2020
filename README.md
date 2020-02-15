@@ -4,7 +4,7 @@ This is the online platform for the module DPH206 at XJTLU in 2020.
 
 In principle, only those teachers and students involved in this module are welcome, although this repo is open to public.
 
-**If you have a question**, please create an issue. Do check if your question has already been asked and answered before you ask. Do not repeat what othres have already done.
+**If you have a question**, please create an issue (click the 'Issues' button on the top -> 'New issue' on the topright). Do check if your question has already been asked and answered before you ask. Do not repeat what othres have already done.
 
 **If you know the answer to the questoin someone else asks**, feel free to anwser it. Don't be shy to make mistakes. Be brave.
 
