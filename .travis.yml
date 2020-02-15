@@ -33,4 +33,4 @@ cache:
 after_success:
   - git add -A
   - git commit -m"travis update"
-  - git push -q https://${GITHUB_PAT}@github.com/pzhaonet/ncov.git HEAD:master
+  - git push -q https://${GITHUB_PAT}@github.com/pzhaonet/dph206-2020.git HEAD:master
