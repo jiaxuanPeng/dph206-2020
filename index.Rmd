@@ -261,7 +261,7 @@ Exercise:
 Github support markdown. Visit the [Markdown Practice issue](https://github.com/pzhaonet/dph206-2020/issues/3), and type anything with markdown syntax. Every syntax in Table 2 must be practised.
 ```
 
-```{block2, type=&#39;rmdex&#39;}
+```{block2, type='rmdex'}
 
 Exercise:
 
