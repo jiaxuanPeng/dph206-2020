@@ -1,45 +1,190 @@
---- 
-title: "DPH206"
-subtitle: "2002 Handbook"
-author: "Dr. Peng ZHAO, Dr. Lei HAN"
+---
+title: "DPH206 2020 Handbook"
+subtitle: "Methods for Analysing Public Health IV: Working in the Field: Data"
+author: "Dr. Lei HAN, Dr. Peng ZHAO"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
 link-citations: yes
+
 github-repo: "pzhaonet/dph206-2020"
 ---
 
 
 ```{r include=FALSE}
 knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE, error = FALSE)
+Sys.setlocale('LC_ALL', 'Chinese')
+library(RefManageR)
+bib <- ReadBib("bib.bib")
+myopts <- BibOptions(bib.style = "authoryear", first.inits=FALSE, max.names = 20)
 ```
 
-# Preface {-}
+# W1: Course review and preparation {#w1}
 
+## Basic Information
 
-# Week 1
+DPH 206 introduces students to the fieldwork in public health and provides the opportunity to conduct and analyse their own research data. Students will learn principles of data management and presentation, conduct of qualitative and quantitative studies, data analysis, how to recognize and control bias, and ethical issues in the conduct of research.
 
-# Week 2
+## Key Module Information
 
-# Week 3
+- Module name: Methods for Analysing Public Health IV: Working in the Field: Data
+- Module code: DPH 206
+- Credit value: 5
+- Semester in which the module is taught: Semester s
+- Pre-requisites needed for the module: DPH 205
+- Programs on which the module is shared: BSc Public Health
 
-# Week 4
+## Delivery Schedule
 
-# Week 5
+- 2020.02.24 -- 2020.04.06: 
+  - Lecture room: Online teaching
+  - Lecture time: tbd.
+  - Tutorial time: flexible on Github (open an issue as soon as you have a question).
+  - Seminar room: Online.
+  - Seminar time: tbd.
+- 2020.04.06 --  2020.06.12
+  - Lecture room: tbd.
+  - Lecture time: tbd.
+  - Tutorial time: tbd.
+  - Seminar time: tbd.
 
-# Week 6
+- Module leader, involved teacher and contact details
+  - Leader: Dr. Lei HAN
+  
+  - Email address: leihan.net@gmail.com
+  
+  - Office telephone number: tbd.
 
-# Week 7
+  - Room number and office hours: tbd.
+  
+  - Preferred means of contact: email
+  
+    
+  
+  - Involved teacher: Dr. Peng ZHAO
+  
+  - Email address: pengzhao.net@gmail.com
+  
+  - Office telephone number: tbd.
+  
+  - Room number and office hours: tbd.
+  
+  - Preferred means of contact: email
 
-# Week 8
+## What you can expect from the module
 
-# Week 9
+### Educational Aims of the Module
 
-# Week 10
+This course aims to provide the student with a basic understanding of methods and issues involved with collecting, analysing, and presenting data.
 
-# Week 11
+### Learning Outcomes
 
-# Week 12
+- Employ basic public health research.
+- Demonstrate the use of core public health research principles in the field.
+- Appropriately examine and interpret research findings.
+- Appraise findings and formulate the conclusions of this research.
 
-# Week 13
+### Assessment Details
+
+The assessment is composed of assignments (8) (40% of total mark), presentation (10%), and final report (50%). Specific assignments will be provided to students after the moderation process begins.
+
+### Methods of Learning and Teaching
+
+The course will be delivered through a series of lectures, seminars, case study presentations, and group work. The students will be required to participate in seminars through presentation and discussion. Students are expected to spend an adequate amount of time in private independent study and are expected to have read relevant materials before class.
+
+### Syllabus & Teaching Plan
+| No.  | Week | Lecture                                                      | Seminar(Students’ presentations)               |
+| ---- | ---- | ------------------------------------------------------------ | ---------------------------------------------- |
+| 1    | O1   | - Course Review<br />- Preparation of required materials<br /> | - Reproducible reports                         |
+| 2    | O2   | - Sampling designs<br />- Data collection  <br />- Types of Data Sets<br />- Ethics in data collection | - Study designs from published papers          |
+| 3    | O3   | - Scientific Plotting                                        | - Data visualization of students’ own datasets |
+| 4    | O4   | - GIS<br />                                                  | - Maps                                         |
+| 5    | O5   | - Time series                                                | - Time series<br />                            |
+| 6    | O6   | - Hypotheses<br />- Research Plan<br />- Mindmap             | - Research ideas<br />- Research plans         |
+| 7    | W1   | - Writing articles<br />- Bibliography management<br />- Equations | - Background of a research                     |
+| 8    | W2   | - Developing questionnaires<br />- Types of interviews       | Questionnaire                                  |
+| 9    | W3   | - Theses<br />- Slides<br />- Posters                        | Slides and/or posters                          |
+| 10   | W4   | Collaboration                                                | Team work                                      |
+| 11   | W5   | Reproducible research                                        | Reproducible documents                         |
+| 12   | W6   | Research Website                                             | Personal/project website                       |
+| 13   | W7   | Project Management                                           | Scientific project                             |
+### Essential Textbooks
+
+```{r, results='asis'}
+# bib
+```
+
+Show in New WindowClear OutputExpand/Collapse Output
+Guest, Greg and Emily E Namey (2014). _Public health research methods_.
+SAGE publications, ISBN 978-1452241333.
+
+Picardi, Carrie A and Kevin D Masick (2013). _Research methods:
+Designing and conducting research with a real-world focus_. Sage
+Publications, ISBN 978-1452230337.
+
+Wickham, Hadley and Garrett Grolemund (2016). _R for Data Science:
+Import, Tidy, Transform, Visualize, and Model Data_. O'Reilly Media,
+Inc. <URL: https://r4ds.had.co.nz/>.
+
+Xie, Yihui, J J Allaire, and Garrett Grolemund (2019). _R Markdown: The
+Definitive Guide_. Taylor & Francis. <URL:
+https://bookdown.org/yihui/rmarkdown/>.
+
+赵鹏, 李怡 (2018). 学 R：零基础学习 R 语言. 研究出版社. <URL: http://xuer.pzhao.org/>.
+
+谢益辉, 黄湘云, 赵鹏 (2019). 现代统计图形（第二版）. <URL: https://msg-book.netlify.com/>.
+
+## Further Information
+
+### Student Feedback
+
+The University is keen to elicit student feedback to make improvements for each module in every session. It is the University policy that the preferred way of achieving this is by means of an Online Module Evaluation Questionnaire Survey. Students will be invited to complete the questionnaire survey for this module at the end of the semester.
+
+You are strongly advised to read the policies mentioned below very carefully, which will help you better perform in your academicstudies.  All the policies and regulations related to your academic study can be found in Student Academic Services section under the heading “Policies and Regulations” on  [E-bridge ](https://ebridge.xjtlu.edu.cn/urd/sits.urd/run/siw_lgn).
+
+### Plagiarism, Cheating, and Fabrication of Data.
+
+Offences of this type can result in attendance at a University-level committee and penalties being imposed. You need to be familiar with the rules. Please see the “Academic Integrity Policy” available on e-Bridge in the Student Academic Services section under the heading ‘Policies and Regulations’.
+
+### Rules of submission for assessed coursework
+
+The University has detailed rules and procedures governing the submission of assessed coursework. You need to be familiar with them. Details can be found in the “Code of Practice for Assessment” available on e-Bridge in the Student Academic Services section under the heading ‘Policies and Regulations’. 
+
+### Late Submission of Assessed Coursework
+
+The University attaches penalties to the late submission of assessed coursework. You need to be familiar with the University’s rules. Details can be found in the “Code of Practice for Assessment” available on e-Bridge in the Student Academic Services section under the heading ‘Policies and Regulations’.  
+
+### Mitigating Circumstances
+
+The University is able to take into account mitigating circumstances, such as illness or personal circumstances which may have adversely affected student performance on a module. It is the student’s responsibility to keep their Academic Advisor, Programme Director, or Head of Department informed of illness and other factors affecting their progress during the year and especially during the examination period. Students who believe that their performance on an examination or assessed coursework may have been impaired by illness, or other exceptional circumstances should follow the procedures set out in the “Mitigating Circumstances Policy”, which can be found on e-Bridge in the Student Academic Services section under the heading ‘Policies and Regulations’.  
+
+### ICE and GitHub
+
+Copies of lecture notes and other materials are available electronically through GitHub.
+
+They might be moved to ICE, the University’s virtual learning environment at [ICE @ XJTLU](http://ice.xjtlu.edu.cn/), in the future.
+
+# W2
+
+# W3
+
+# W4
+
+# W5
+
+# W6
+
+# W7
+
+# W8
+
+# W9
+
+# W10
+
+# W11
+
+# W12
+
+# W13
