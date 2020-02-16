@@ -15,18 +15,16 @@ github-repo: "pzhaonet/dph206-2020"
 ```{r include=FALSE}
 knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE, error = FALSE)
 Sys.setlocale('LC_ALL', 'Chinese')
-library(RefManageR)
-bib <- ReadBib("bib.bib")
-myopts <- BibOptions(bib.style = "authoryear", first.inits=FALSE, max.names = 20)
+# library(RefManageR)
+# bib <- ReadBib("bib.bib")
+# myopts <- BibOptions(bib.style = "authoryear", first.inits=FALSE, max.names = 20)
 ```
 
-# W1: Course review and preparation {#w1}
-
-## Basic Information
-
-DPH 206 introduces students to the fieldwork in public health and provides the opportunity to conduct and analyse their own research data. Students will learn principles of data management and presentation, conduct of qualitative and quantitative studies, data analysis, how to recognize and control bias, and ethical issues in the conduct of research.
+# O1: 2020.02.24 14:00 – 16:00 {#w1}
 
 ## Key Module Information
+
+DPH 206 introduces students to the fieldwork in public health and provides the opportunity to conduct and analyse their own research data. Students will learn principles of data management and presentation, conduct of qualitative and quantitative studies, data analysis, how to recognize and control bias, and ethical issues in the conduct of research.
 
 - Module name: Methods for Analysing Public Health IV: Working in the Field: Data
 - Module code: DPH 206
@@ -35,46 +33,59 @@ DPH 206 introduces students to the fieldwork in public health and provides the o
 - Pre-requisites needed for the module: DPH 205
 - Programs on which the module is shared: BSc Public Health
 
-## Delivery Schedule
+## Schedule
+
+- Module leader
+  - Dr. Lei HAN
+  - Email: leihan.net@gmail.com
+  - Office telephone number: TBD.
+  - Room number and office hours: TBD.
+  - Preferred means of contact: email
+
+- Involved teacher
+  - Dr. Peng ZHAO
+  - Email address: pengzhao.net@gmail.com
+  - Office telephone number: TBD.
+  - Room number and office hours: TBD.
+  - Preferred means of contact: email
 
 - 2020.02.24 -- 2020.04.06: 
   - Lecture room: Online teaching
-  - Lecture time: tbd.
+  - Lecture time: 14:00 - 16:00, Monday.
   - Tutorial time: flexible on Github (open an issue as soon as you have a question).
   - Seminar room: Online.
-  - Seminar time: tbd.
+  - Seminar time: 14:00 – 16:00, Thursday.
 - 2020.04.06 --  2020.06.12
-  - Lecture room: tbd.
-  - Lecture time: tbd.
-  - Tutorial time: tbd.
-  - Seminar time: tbd.
+  - Lecture room: TBD.
+  - Lecture time: TBD.
+  - Tutorial time: TBD.
+  - Seminar time: TBD.
 
-- Module leader, involved teacher and contact details
-  - Leader: Dr. Lei HAN
-  
-  - Email address: leihan.net@gmail.com
-  
-  - Office telephone number: tbd.
+A preliminary syllabus is available in Table 1. It might change due to the teaching progress.
 
-  - Room number and office hours: tbd.
-  
-  - Preferred means of contact: email
-  
-    
-  
-  - Involved teacher: Dr. Peng ZHAO
-  
-  - Email address: pengzhao.net@gmail.com
-  
-  - Office telephone number: tbd.
-  
-  - Room number and office hours: tbd.
-  
-  - Preferred means of contact: email
+Table 1: Syllabus
+
+| No.  | Week | Lecture                                                      | Seminar(Students’ presentations)               |
+| ---- | ---- | ------------------------------------------------------------ | ---------------------------------------------- |
+| 1    | O1   | - Course Review<br />- Preparation of required materials<br /> | - Markdown<br />- Reproducible reports         |
+| 2    | O2   | - Sampling designs<br />- Data collection  <br />- Types of Data Sets<br />- Ethics in data collection | - Data                                         |
+| 3    | O3   | - Scientific Plotting                                        | - Data visualization of students’ own datasets |
+| 4    | O4   | - GIS<br />                                                  | - Maps                                         |
+| 5    | O5   | - Time series                                                | - Time series<br />                            |
+| 6    | O6   | - Hypotheses<br />- Research Plan<br />- Mind maps           | - Research ideas<br />- Research plans         |
+| 7    | W1   | - Writing articles<br />- Bibliography management<br />- Equations | - Background of a research                     |
+| 8    | W2   | - Developing questionnaires<br />- Types of interviews       | Questionnaire                                  |
+| 9    | W3   | - Theses<br />- Slides<br />- Posters                        | Slides and/or posters                          |
+| 10   | W4   | Collaboration                                                | Team work                                      |
+| 11   | W5   | Reproducible research                                        | Reproducible documents                         |
+| 12   | W6   | Research Website                                             | Personal/project website                       |
+| 13   | W7   | Project Management                                           | Scientific project                             |
+
+
 
 ## What you can expect from the module
 
-### Educational Aims of the Module
+### Educational Aims
 
 This course aims to provide the student with a basic understanding of methods and issues involved with collecting, analysing, and presenting data.
 
@@ -89,39 +100,34 @@ This course aims to provide the student with a basic understanding of methods an
 
 The assessment is composed of assignments (8) (40% of total mark), presentation (10%), and final report (50%). Specific assignments will be provided to students after the moderation process begins.
 
+The assignments will be:
+
+1. calculating data statistics,
+2. plotting figures for data visualization,
+3. drawing mind maps for research design,
+4. writing a lab/field report,
+5. making an academic poster,
+6. writing an article/thesis,
+7. making slides, and
+8. building a research website.
+
+The presentation will be:
+
+- presenting a poster.
+
+The final reports will include:
+
+1. writing a final report, and
+2. giving an oral presentation.
+
 ### Methods of Learning and Teaching
 
 The course will be delivered through a series of lectures, seminars, case study presentations, and group work. The students will be required to participate in seminars through presentation and discussion. Students are expected to spend an adequate amount of time in private independent study and are expected to have read relevant materials before class.
 
-### Syllabus & Teaching Plan
-| No.  | Week | Lecture                                                      | Seminar(Students’ presentations)               |
-| ---- | ---- | ------------------------------------------------------------ | ---------------------------------------------- |
-| 1    | O1   | - Course Review<br />- Preparation of required materials<br /> | - Reproducible reports                         |
-| 2    | O2   | - Sampling designs<br />- Data collection  <br />- Types of Data Sets<br />- Ethics in data collection | - Study designs from published papers          |
-| 3    | O3   | - Scientific Plotting                                        | - Data visualization of students’ own datasets |
-| 4    | O4   | - GIS<br />                                                  | - Maps                                         |
-| 5    | O5   | - Time series                                                | - Time series<br />                            |
-| 6    | O6   | - Hypotheses<br />- Research Plan<br />- Mindmap             | - Research ideas<br />- Research plans         |
-| 7    | W1   | - Writing articles<br />- Bibliography management<br />- Equations | - Background of a research                     |
-| 8    | W2   | - Developing questionnaires<br />- Types of interviews       | Questionnaire                                  |
-| 9    | W3   | - Theses<br />- Slides<br />- Posters                        | Slides and/or posters                          |
-| 10   | W4   | Collaboration                                                | Team work                                      |
-| 11   | W5   | Reproducible research                                        | Reproducible documents                         |
-| 12   | W6   | Research Website                                             | Personal/project website                       |
-| 13   | W7   | Project Management                                           | Scientific project                             |
 ### Essential Textbooks
 
-```{r, results='asis'}
-# bib
-```
-
-Show in New WindowClear OutputExpand/Collapse Output
 Guest, Greg and Emily E Namey (2014). _Public health research methods_.
 SAGE publications, ISBN 978-1452241333.
-
-Picardi, Carrie A and Kevin D Masick (2013). _Research methods:
-Designing and conducting research with a real-world focus_. Sage
-Publications, ISBN 978-1452230337.
 
 Wickham, Hadley and Garrett Grolemund (2016). _R for Data Science:
 Import, Tidy, Transform, Visualize, and Model Data_. O'Reilly Media,
@@ -130,6 +136,12 @@ Inc. <URL: https://r4ds.had.co.nz/>.
 Xie, Yihui, J J Allaire, and Garrett Grolemund (2019). _R Markdown: The
 Definitive Guide_. Taylor & Francis. <URL:
 https://bookdown.org/yihui/rmarkdown/>.
+
+### Recommended Textbooks
+
+Picardi, Carrie A and Kevin D Masick (2013). _Research methods:
+Designing and conducting research with a real-world focus_. Sage
+Publications, ISBN 978-1452230337.
 
 赵鹏, 李怡 (2018). 学 R：零基础学习 R 语言. 研究出版社. <URL: http://xuer.pzhao.org/>.
 
@@ -164,6 +176,97 @@ The University is able to take into account mitigating circumstances, such as il
 Copies of lecture notes and other materials are available electronically through GitHub.
 
 They might be moved to ICE, the University’s virtual learning environment at [ICE @ XJTLU](http://ice.xjtlu.edu.cn/), in the future.
+
+## Required materials
+
+As this module is focused on data analysis, every student must work on a computer with internet access. Either Windows, macOS or Linux is accepted.
+
+Data processing and presenting software packages must be installed in your computer. As our assignments will be reproducible, R Markdown is the first choice in the class, and RStudio is an enhanced user interface for R. We are going to work with markdown in the framework of reproducible research, thus Typora is recommend as a markdown editor. If you don’t like R, you can use Jupyter notebook for your assignments and final reports. However, all the examples in the lectures will be given in R.
+
+*Reproducible research* by Wikipedia:
+
+> The term *reproducible research* refers to the idea that the ultimate product of [academic research](https://en.wikipedia.org/wiki/Academic_research) is the paper along with the laboratory notebooks and full computational environment used to produce the results in the paper such as the code, data, etc. that can be used to reproduce the results and create new work based on the research. Typical examples of reproducible research comprise compendia of data, code and text files, often organised around an [R](https://en.wikipedia.org/wiki/R_(programming_language)) [Markdown](https://en.wikipedia.org/wiki/Markdown) source document or a [Jupyter](https://en.wikipedia.org/wiki/Jupyter) notebook.
+
+Sometimes, if we have to use office packages,  OpenOffice or LibreOffice is recommended. We **WON’T** use Microsoft Office (Word, Excel, Powerpoint) in the class unless we have no other choices. After class, you are free to use any software as you like.
+
+```{block2, type='rmdex'}
+
+Exercise:
+
+Install R in Windows like this:
+
+1. Open the download page on R official website: <https://cran.r-project.org/bin/windows/base/>.
+2. Click ‘Download R x.x.x for Windows’ (x.x.x is the version, e.g. 3.6.2) at the top of the webpage, and the installation file will be downloaded.
+3. Double click the downloaded file and follow the instruction until it is installed.
+
+```
+
+```{block2, type='rmdex'}
+
+Exercise:
+
+Install RStudio like this:
+
+1. Open the download page on the RStudio official website: <https://rstudio.com/products/rstudio/download/#download>.
+2. Click ‘DOWNLOAD RSTUDIO FOR WINDOWS’.
+3. Double click the downloaded file and follow the instruction until it is installed.
+
+```
+
+```{block2, type='rmdex'}
+Install Typora like this: 
+
+1. Open the download page on Typora official website: <https://typora.io/#windows>.
+2. Click ‘Download Beta (xyy)’ (yy is the microprocessor type of your computer. You can find it by right click This PC – properties) at the top of the webpage, and the installation file will be downloaded.
+3. Double click the downloaded file and follow the instruction until it is installed.
+
+```
+
+## Markdown syntax
+
+All your assigned coursework (exercises and assignments) must be reproducible, i.e. given in markdown syntax in this module.
+
+> Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+>
+> --- WIKIPEDIA
+>
+
+![](images/handwriting_markdown.jpg)
+Fig.1. Handwritten and printed markdown
+
+
+Table 2. Key Syntax of Markdown
+
+| You type                       | You get                                                      |
+| ------------------------------ | ------------------------------------------------------------ |
+| `*italic*`                     | *italic*                                                     |
+| `**bold**`                     | **bold**                                                     |
+| `PM~2.5~`                      | subscript $\text{PM}_{2.5}$                                  |
+| `R^2^`                         | superscript $\text{R}^2$                                     |
+| `$E = mc^2$`                   | equations: $E = mc^2$, $G = \sqrt[n]{\prod_{i = 1}^{n} x_i}$ |
+| `[link](https://xjtlu.edu.cn)` | hyperlink [link](https://xjtlu.edu.cn)                       |
+| `![](image)`                   | insert an image                                              |
+| `# Chapter 1`                  | headings                                                     |
+| `1. list...`                   | numbered list                                                |
+| `- list...`                    | unnumbered list                                              |
+
+You can open Typora, and type the texts in the left column of Table 2. See what happens.
+
+Click the `</>` button at the left bottom of typora. Click it again. Again.
+
+
+```{block2, type='rmdex'}
+Exercise:
+
+Github support markdown. Visit the [Markdown Practice issue](https://github.com/pzhaonet/dph206-2020/issues/3), and type anything with markdown syntax. Every syntax in Table 2 must be practised.
+```
+
+```{block2, type=&#39;rmdex&#39;}
+
+Exercise:
+
+Use markdown in your every day study/life and Write a document, a meeting protocol, a diary, a lab report, etc., and present it in the seminar of this week.
+```
 
 # W2
 
