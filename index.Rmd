@@ -22,7 +22,8 @@ Sys.setlocale('LC_ALL', 'Chinese')
 
 # O1: 2020.02.24 14:00 – 16:00 {#w1}
 
-## Key Module Information
+## Basic Information
+### Key Module Information
 
 DPH 206 introduces students to the fieldwork in public health and provides the opportunity to conduct and analyse their own research data. Students will learn principles of data management and presentation, conduct of qualitative and quantitative studies, data analysis, how to recognize and control bias, and ethical issues in the conduct of research.
 
@@ -33,61 +34,43 @@ DPH 206 introduces students to the fieldwork in public health and provides the o
 - Pre-requisites needed for the module: DPH 205
 - Programs on which the module is shared: BSc Public Health
 
-## Schedule
+### Delivery Schedule
+
+- 2020.02.24 -- 2020.04.05
+  
+  - Lecture room: Online teaching
+  - Lecture time: 14:00 - 16:00, Monday.
+  - Tutorial time: flexible on Github (open an issue as soon as you have a question).
+  - Seminar/practice room: Online.
+- Seminar/practice time: 14:00 – 16:00, Thursday.
+  
+- 2020.04.06 --  2020.06.12
+  - Lecture room: TBD.
+  - Lecture time: TBD.
+  - Tutorial time: TBD.
+  - Seminar time: TBD.
+  
+### Module Leader, Teaching Staff and Contact Details
 
 - Module leader
   - Dr. Lei HAN
-  - Email: leihan.net@gmail.com
+  - Email: lei.han@xjtlu.edu.cn
   - Office telephone number: TBD.
   - Room number and office hours: TBD.
   - Preferred means of contact: email
 
 - Involved teacher
   - Dr. Peng ZHAO
-  - Email address: pengzhao.net@gmail.com
+  - Email address: peng.zhao@xjtlu.edu.cn
   - Office telephone number: TBD.
   - Room number and office hours: TBD.
   - Preferred means of contact: email
-
-- 2020.02.24 -- 2020.04.06: 
-  - Lecture room: Online teaching
-  - Lecture time: 14:00 - 16:00, Monday.
-  - Tutorial time: flexible on Github (open an issue as soon as you have a question).
-  - Seminar room: Online.
-  - Seminar time: 14:00 – 16:00, Thursday.
-- 2020.04.06 --  2020.06.12
-  - Lecture room: TBD.
-  - Lecture time: TBD.
-  - Tutorial time: TBD.
-  - Seminar time: TBD.
-
-A preliminary syllabus is available in Table 1. It might change due to the teaching progress.
-
-Table 1: Syllabus
-
-| No.  | Week | Lecture                                                      | Seminar(Students’ presentations)               |
-| ---- | ---- | ------------------------------------------------------------ | ---------------------------------------------- |
-| 1    | O1   | - Course Review<br />- Preparation of required materials<br /> | - Markdown<br />- Reproducible reports         |
-| 2    | O2   | - Sampling designs<br />- Data collection  <br />- Types of Data Sets<br />- Ethics in data collection | - Data                                         |
-| 3    | O3   | - Scientific Plotting                                        | - Data visualization of students’ own datasets |
-| 4    | O4   | - GIS<br />                                                  | - Maps                                         |
-| 5    | O5   | - Time series                                                | - Time series<br />                            |
-| 6    | O6   | - Hypotheses<br />- Research Plan<br />- Mind maps           | - Research ideas<br />- Research plans         |
-| 7    | W1   | - Writing articles<br />- Bibliography management<br />- Equations | - Background of a research                     |
-| 8    | W2   | - Developing questionnaires<br />- Types of interviews       | Questionnaire                                  |
-| 9    | W3   | - Theses<br />- Slides<br />- Posters                        | Slides and/or posters                          |
-| 10   | W4   | Collaboration                                                | Team work                                      |
-| 11   | W5   | Reproducible research                                        | Reproducible documents                         |
-| 12   | W6   | Research Website                                             | Personal/project website                       |
-| 13   | W7   | Project Management                                           | Scientific project                             |
-
-
 
 ## What you can expect from the module
 
 ### Educational Aims
 
-This course aims to provide the student with a basic understanding of methods and issues involved with collecting, analysing, and presenting data.
+This course aims to provide the student with a basic understanding of methods and issues involved with collecting, processing, analysing, and presenting data.
 
 ### Learning Outcomes
 
@@ -98,54 +81,68 @@ This course aims to provide the student with a basic understanding of methods an
 
 ### Assessment Details
 
-The assessment is composed of assignments (8) (40% of total mark), presentation (10%), and final report (50%). Specific assignments will be provided to students after the moderation process begins.
+The assessment is composed of assignments (40% of total mark), an oral presentation (20%), and a final poster presentation (40%).
 
-The assignments will be:
+ The assignments will be:
 
 1. calculating data statistics,
 2. plotting figures for data visualization,
-3. drawing mind maps for research design,
-4. writing a lab/field report,
-5. making an academic poster,
-6. writing an article/thesis,
-7. making slides, and
-8. building a research website.
+3. sampling and recording data,
+4. presenting data in slides,
+5. drawing mind maps for research design and data processing,
+6. analysing data in a draft of an article,
+7. displaying data in an academic poster, and
+8. sharing data on a research website. 
 
-The presentation will be:
+The oral presentation will be:
 
-- presenting a poster.
+- a 10-minute oral presentation with slides, followed by a 5-minute question time.
 
-The final reports will include:
+The final poster presentation will be:
 
-1. writing a final report, and
-2. giving an oral presentation.
+- a one-hour’s poster presentation, reviewed by multiple teachers/students.
 
 ### Methods of Learning and Teaching
 
 The course will be delivered through a series of lectures, seminars, case study presentations, and group work. The students will be required to participate in seminars through presentation and discussion. Students are expected to spend an adequate amount of time in private independent study and are expected to have read relevant materials before class.
 
-### Essential Textbooks
+### Syllabus & Teaching Plan
 
-Guest, Greg and Emily E Namey (2014). _Public health research methods_.
-SAGE publications, ISBN 978-1452241333.
+ 
 
-Wickham, Hadley and Garrett Grolemund (2016). _R for Data Science:
-Import, Tidy, Transform, Visualize, and Model Data_. O'Reilly Media,
-Inc. <URL: https://r4ds.had.co.nz/>.
+| No.  | Week | Lecture                                                      | Seminar/practice                                             | Assignments |
+| ---- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
+| 1    | O1   | - Course Review<br />- Preparation of required materials     | - Markdown  <br />- R markdown  <br />- Reproducible reports |             |
+| 2    | O2   | - Software for data analysis  <br />- R essentials  <br />- R packages | - R programming basics                                       | Assign. 1   |
+| 3    | O3   | - Data visualization                                         | - Plot figures from students’ own datasets                   | Assign. 2   |
+| 4    | O4   | - Data formats  <br />- R Tidyverse                          | - Process example datasets with R                            | Assign. 3   |
+| 5    | O5   | - GIS and Time                                               | - Process time data  <br />- Plot maps                       |             |
+| 6    | O6   | - Slides                                                     | - Make slides for oral presentation                          | Assign. 4   |
+| 7    | W1   | - Hypotheses  <br />- Research Plan  <br />- Data sampling   | - Create research ideas with mind maps  <br />- Make plans   | Assign. 5   |
+| 8    | W2   | - Data analysis in journal articles  <br />- Bibliography  <br />- Equations | - Write a draft of an article                                | Assign. 6   |
+| 9    | W3   | - Posters                                                    | - Make a poster                                              | Assign. 7   |
+| 10   | W4   | - Data on research websites                                  | - Build a research website                                   | Assign. 8   |
+| 11   | W5   | - Open Data and Open Science  <br />- Reproducible research  | - Git                                                        |             |
+| 12   | W6   | - Revisiting the data import                                 | - Process various types of data                              |             |
+| 13   | W7   | Project Management                                           | - Manage students’ own scientific projects                   |             |
 
-Xie, Yihui, J J Allaire, and Garrett Grolemund (2019). _R Markdown: The
-Definitive Guide_. Taylor & Francis. <URL:
-https://bookdown.org/yihui/rmarkdown/>.
+### Reading Materials
 
-### Recommended Textbooks
+**Mandatory textbook**
 
-Picardi, Carrie A and Kevin D Masick (2013). _Research methods:
-Designing and conducting research with a real-world focus_. Sage
-Publications, ISBN 978-1452230337.
+Wickham, Hadley and Garrett Grolemund (2016). *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data.* O’Reilly Media, Inc. <URL: https://r4ds.had.co.nz/>.
 
-赵鹏, 李怡 (2018). 学 R：零基础学习 R 语言. 研究出版社. <URL: http://xuer.pzhao.org/>.
+Xie, Yihui, J J Allaire, and Garrett Grolemund (2019). *R Markdown: The Definitive Guide.* Taylor & Francis. <URL: https://bookdown.org/yihui/rmarkdown/>.
 
-谢益辉, 黄湘云, 赵鹏 (2019). 现代统计图形（第二版）. <URL: https://msg-book.netlify.com/>.
+**Optional textbook**
+
+Guest, Greg and Emily E Namey (2014). *Public health research methods*. SAGE publications, ISBN 978-1452241333.
+
+Picardi, Carrie A and Kevin D Masick (2013). *Research methods: Designing and conducting research with a real-world focus.* Sage Publications, ISBN 978-1452230337.
+
+Peng Zhao and Yi Li (2018). *Learning R: From the Very Beginning.* Research Press. <URL: http://xuer.pzhao.org/>.
+
+Yihui Xie, Xiangyun Huang, Peng Zhao (2019). *Modern Statistical Graphics (2nd Edition)*. <URL: https://msg-book.netlify.com/>.
 
 ## Further Information
 
