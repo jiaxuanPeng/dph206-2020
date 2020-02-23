@@ -13,7 +13,7 @@ github-repo: "pzhaonet/dph206-2020"
 
 
 ```{r include=FALSE}
-knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE, error = FALSE)
+knitr::opts_chunk$set(eval = TRUE, echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
 Sys.setlocale('LC_ALL', 'Chinese')
 # library(RefManageR)
 # bib <- ReadBib("bib.bib")
@@ -72,7 +72,7 @@ DPH 206 introduces students to the fieldwork in public health and provides the o
 
 This course aims to provide the student with a basic understanding of methods and issues involved with collecting, processing, analysing, and presenting data.
 
-```{r, out.width="30%"}
+```{r, out.width="100%"}
 knitr::include_graphics("https://biostat2.uni.lu/lectures/img/01/tidyverse_data_science.png")
 ```
 
