@@ -20,7 +20,7 @@ Sys.setlocale('LC_ALL', 'Chinese')
 # myopts <- BibOptions(bib.style = "authoryear", first.inits=FALSE, max.names = 20)
 ```
 
-# O1: 2020.02.24 14:00 – 16:00 {#w1}
+# O1 {#w1}
 
 ## Basic Information
 ### Key Module Information
@@ -37,12 +37,11 @@ DPH 206 introduces students to the fieldwork in public health and provides the o
 ### Delivery Schedule
 
 - 2020.02.24 -- 2020.04.05
-  
   - Lecture room: Online teaching
   - Lecture time: 14:00 - 16:00, Monday.
-  - Tutorial time: flexible on Github (open an issue as soon as you have a question).
+  - Tutorial time: flexible on [Github](https://github.com/pzhaonet/dph206-2020/issues) (open an issue as soon as you have a question).
   - Seminar/practice room: Online.
-- Seminar/practice time: 14:00 – 16:00, Thursday.
+  - Seminar/practice time: 14:00 – 16:00, Thursday.
   
 - 2020.04.06 --  2020.06.12
   - Lecture room: TBD.
@@ -61,6 +60,7 @@ DPH 206 introduces students to the fieldwork in public health and provides the o
 
 - Involved teacher
   - Dr. Peng ZHAO
+  - Why involved: [*Learning R*](https://pzhaonet.github.io/xuer/) (Zhao & Li, 2018); [nCoV website](http://ncov2020.org/en/) (Zhao et al., 2020)
   - Email address: peng.zhao@xjtlu.edu.cn
   - Office telephone number: TBD.
   - Room number and office hours: TBD.
@@ -72,18 +72,24 @@ DPH 206 introduces students to the fieldwork in public health and provides the o
 
 This course aims to provide the student with a basic understanding of methods and issues involved with collecting, processing, analysing, and presenting data.
 
+```{r, out.width="30%"}
+knitr::include_graphics("https://biostat2.uni.lu/lectures/img/01/tidyverse_data_science.png")
+```
+
 ### Learning Outcomes
 
-- Employ basic public health research.
-- Demonstrate the use of core public health research principles in the field.
-- Appropriately examine and interpret research findings.
-- Appraise findings and formulate the conclusions of this research.
+1. Employ basic public health research.
+2. Demonstrate the use of core public health research principles in the field.
+3. Appropriately examine and interpret research findings.
+4. Appraise findings and formulate the conclusions of this research.
 
 ### Assessment Details
 
 The assessment is composed of assignments (40% of total mark), an oral presentation (20%), and a final poster presentation (40%).
 
  The assignments will be:
+
+```{block2, type='rmdas'}
 
 1. calculating data statistics,
 2. plotting figures for data visualization,
@@ -93,6 +99,8 @@ The assessment is composed of assignments (40% of total mark), an oral presentat
 6. analysing data in a draft of an article,
 7. displaying data in an academic poster, and
 8. sharing data on a research website. 
+```
+
 
 The oral presentation will be:
 
@@ -107,8 +115,6 @@ The final poster presentation will be:
 The course will be delivered through a series of lectures, seminars, case study presentations, and group work. The students will be required to participate in seminars through presentation and discussion. Students are expected to spend an adequate amount of time in private independent study and are expected to have read relevant materials before class.
 
 ### Syllabus & Teaching Plan
-
- 
 
 | No.  | Week | Lecture                                                      | Seminar/practice                                             | Assignments |
 | ---- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
@@ -130,15 +136,36 @@ The course will be delivered through a series of lectures, seminars, case study 
 
 **Mandatory textbook**
 
+```{r, out.width="30%"}
+knitr::include_graphics("https://d33wubrfki0l68.cloudfront.net/b88ef926a004b0fce72b2526b0b5c4413666a4cb/24a30/cover.png")
+```
+
+
 Wickham, Hadley and Garrett Grolemund (2016). *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data.* O’Reilly Media, Inc. <URL: https://r4ds.had.co.nz/>.
+
+```{r, out.width="30%"}
+knitr::include_graphics("https://bookdown.org/yihui/rmarkdown/images/cover.png")
+```
 
 Xie, Yihui, J J Allaire, and Garrett Grolemund (2019). *R Markdown: The Definitive Guide.* Taylor & Francis. <URL: https://bookdown.org/yihui/rmarkdown/>.
 
 **Optional textbook**
 
+```{r, out.width="30%"}
+knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/41RgIDd73eL._SX345_BO1,204,203,200_.jpg")
+```
+
 Guest, Greg and Emily E Namey (2014). *Public health research methods*. SAGE publications, ISBN 978-1452241333.
 
+```{r, out.width="30%"}
+knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/51T7L8omv%2BL._SX402_BO1,204,203,200_.jpg")
+```
+
 Picardi, Carrie A and Kevin D Masick (2013). *Research methods: Designing and conducting research with a real-world focus.* Sage Publications, ISBN 978-1452230337.
+
+```{r, out.width="30%"}
+knitr::include_graphics("https://img13.360buyimg.com/n1/jfs/t24256/89/1035798887/591361/d2cf7700/5b4d8866Ne96290bb.jpg")
+```
 
 Peng Zhao and Yi Li (2018). *Learning R: From the Very Beginning.* Research Press. <URL: http://xuer.pzhao.org/>.
 
@@ -150,7 +177,7 @@ Yihui Xie, Xiangyun Huang, Peng Zhao (2019). *Modern Statistical Graphics (2nd E
 
 The University is keen to elicit student feedback to make improvements for each module in every session. It is the University policy that the preferred way of achieving this is by means of an Online Module Evaluation Questionnaire Survey. Students will be invited to complete the questionnaire survey for this module at the end of the semester.
 
-You are strongly advised to read the policies mentioned below very carefully, which will help you better perform in your academicstudies.  All the policies and regulations related to your academic study can be found in Student Academic Services section under the heading “Policies and Regulations” on  [E-bridge ](https://ebridge.xjtlu.edu.cn/urd/sits.urd/run/siw_lgn).
+You are strongly advised to read the policies mentioned below very carefully, which will help you better perform in your academic studies.  All the policies and regulations related to your academic study can be found in Student Academic Services section under the heading “Policies and Regulations” on  [E-bridge ](https://ebridge.xjtlu.edu.cn/urd/sits.urd/run/siw_lgn).
 
 ### Plagiarism, Cheating, and Fabrication of Data.
 
@@ -178,13 +205,13 @@ They might be moved to ICE, the University’s virtual learning environment at [
 
 As this module is focused on data analysis, every student must work on a computer with internet access. Either Windows, macOS or Linux is accepted.
 
-Data processing and presenting software packages must be installed in your computer. As our assignments will be reproducible, R Markdown is the first choice in the class, and RStudio is an enhanced user interface for R. We are going to work with markdown in the framework of reproducible research, thus Typora is recommend as a markdown editor. If you don’t like R, you can use Jupyter notebook for your assignments and final reports. However, all the examples in the lectures will be given in R.
+Data processing and presenting software packages must be installed in your computer. As our assignments will be reproducible, R Markdown is the first choice in the class, and RStudio is an enhanced user interface for R. We are going to work with markdown in the framework of reproducible research, thus Typora is recommended as a markdown editor. If you don’t like R, you can use Jupyter notebook or other software packages for your assignments and presentations. However, all the examples in the lectures will be given in R.
 
 *Reproducible research* by Wikipedia:
 
 > The term *reproducible research* refers to the idea that the ultimate product of [academic research](https://en.wikipedia.org/wiki/Academic_research) is the paper along with the laboratory notebooks and full computational environment used to produce the results in the paper such as the code, data, etc. that can be used to reproduce the results and create new work based on the research. Typical examples of reproducible research comprise compendia of data, code and text files, often organised around an [R](https://en.wikipedia.org/wiki/R_(programming_language)) [Markdown](https://en.wikipedia.org/wiki/Markdown) source document or a [Jupyter](https://en.wikipedia.org/wiki/Jupyter) notebook.
 
-Sometimes, if we have to use office packages,  OpenOffice or LibreOffice is recommended. We **WON’T** use Microsoft Office (Word, Excel, Powerpoint) in the class unless we have no other choices. After class, you are free to use any software as you like.
+Sometimes, if we have to use office packages,  LibreOffice is recommended. We **WON’T** use Microsoft Office (Word, Excel, Powerpoint) in the class unless we have no other choices. After class, you are free to use any software as you like.
 
 ```{block2, type='rmdex'}
 
@@ -223,13 +250,39 @@ Install Typora like this:
 
 All your assigned coursework (exercises and assignments) must be reproducible, i.e. given in markdown syntax in this module.
 
+Why markdown?
+
+- For asking questions
+
+  - [GitHub](https://github.com/pzhaonet/dph206-2020/issues)
+  - [Stackoverflow](https://stackoverflow.com/questions/58129372/r-epidisplay-package-and-other-epidemiology-packages-not-working-with-survey-wei)
+  - [Capital of Statistics](https://d.cosx.org/)
+
+- For creating scientific products, such as
+
+  - Writing reports/documents/[manuscripts](https://www.sciencedirect.com/science/article/pii/S0168192318302880?via%3Dihub)/theses
+  - Making [slides](https://www.pzhao.org/slides/ross-mpic/#1)/[posters](https://openr.pzhao.org/slides/cufe2019/)
+  - Building websites (ncov2020.org, yihui.org, openr.pzhao.org)
+
+- For team collaboration and reproducibility
+
 > Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 >
 > --- WIKIPEDIA
 >
 
 ![](images/handwriting_markdown.jpg)
-Fig.1. Handwritten and printed markdown
+Fig.2. Handwritten and printed markdown
+
+Markdown is NOT a certain software package. It is a set of writing rules. Many software packages can open markdown files:
+
+- Notepad
+- Notepad++
+- https://stackedit.io/
+- Typora
+
+- https://web.marp.app/ (example https://marp.app/)
+- RStudio
 
 
 Table 2. Key Syntax of Markdown
@@ -264,6 +317,26 @@ Exercise:
 
 Use markdown in your every day study/life and Write a document, a meeting protocol, a diary, a lab report, etc., and present it in the seminar of this week.
 ```
+
+```{block2, type='rmdex'}
+
+Exercise:
+
+Use markdown in your every day study/life and Write a document, a meeting protocol, a diary, a lab report, etc., and present it in the seminar of this week.
+```
+
+```{block2, type='rmdds'}
+Discussion:
+
+What academic software for data analysis do you often use in your research area? Make a list and give us a short introduction in the seminar. 
+  
+```
+
+## Seminar/practice
+
+### Discussion: Software for data analysis
+
+### Practice: Markdown, R markdown, and reproducible research
 
 # W2
 
