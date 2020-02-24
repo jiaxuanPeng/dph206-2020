@@ -89,7 +89,7 @@ The assessment is composed of assignments (40% of total mark), an oral presentat
 
  The assignments will be:
 
-```{block2, type='rmdas'}
+```{block2, echo = TRUE, type='rmdas'}
 
 1. calculating data statistics,
 2. plotting figures for data visualization,
@@ -213,7 +213,7 @@ Data processing and presenting software packages must be installed in your compu
 
 Sometimes, if we have to use office packages,  LibreOffice is recommended. We **WON’T** use Microsoft Office (Word, Excel, Powerpoint) in the class unless we have no other choices. After class, you are free to use any software as you like.
 
-```{block2, type='rmdex'}
+```{block2, echo = TRUE, type='rmdex'}
 
 Exercise:
 
@@ -225,7 +225,7 @@ Install R in Windows like this:
 
 ```
 
-```{block2, type='rmdex'}
+```{block2, echo = TRUE, type='rmdex'}
 
 Exercise:
 
@@ -237,7 +237,7 @@ Install RStudio like this:
 
 ```
 
-```{block2, type='rmdex'}
+```{block2, echo = TRUE, type='rmdex'}
 Install Typora like this: 
 
 1. Open the download page on Typora official website: <https://typora.io/#windows>.
@@ -305,27 +305,27 @@ You can open Typora, and type the texts in the left column of Table 2. See what 
 Click the `</>` button at the left bottom of typora. Click it again. Again.
 
 
-```{block2, type='rmdex'}
+```{block2, echo = TRUE, type='rmdex'}
 Exercise:
 
 Github support markdown. Visit the [Markdown Practice issue](https://github.com/pzhaonet/dph206-2020/issues/3), and type anything with markdown syntax. Every syntax in Table 2 must be practised.
 ```
 
-```{block2, type='rmdex'}
+```{block2, echo = TRUE, type='rmdex'}
 
 Exercise:
 
 Use markdown in your every day study/life and Write a document, a meeting protocol, a diary, a lab report, etc., and present it in the seminar of this week.
 ```
 
-```{block2, type='rmdex'}
+```{block2, echo = TRUE, type='rmdex'}
 
 Exercise:
 
 Use markdown in your every day study/life and Write a document, a meeting protocol, a diary, a lab report, etc., and present it in the seminar of this week.
 ```
 
-```{block2, type='rmdds'}
+```{block2, echo = TRUE, type='rmdds'}
 Discussion:
 
 What academic software for data analysis do you often use in your research area? Make a list and give us a short introduction in the seminar. 
@@ -338,26 +338,3 @@ What academic software for data analysis do you often use in your research area?
 
 ### Practice: Markdown, R markdown, and reproducible research
 
-# W2
-
-# W3
-
-# W4
-
-# W5
-
-# W6
-
-# W7
-
-# W8
-
-# W9
-
-# W10
-
-# W11
-
-# W12
-
-# W13
