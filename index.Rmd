@@ -346,7 +346,7 @@ xxx.
 
 3. Jane
 
-xxx.
+Studied R and R studio before, not familiar with data analysis software. But I am willing to restudy it because I found the github learning platfornm is interesting.
 
 ### Practice: Markdown, R markdown, and reproducible research
 
