@@ -348,7 +348,7 @@ SAS, R, stata
 
 3. Jane
 
-xxx.
+R
 
 ### Practice: Markdown, R markdown, and reproducible research
 
