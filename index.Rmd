@@ -336,5 +336,17 @@ What academic software for data analysis do you often use in your research area?
 
 ### Discussion: Software for data analysis
 
+1. Bella
+
+xxx.
+
+2. Wanqi
+
+xxx.
+
+3. Jane
+
+xxx.
+
 ### Practice: Markdown, R markdown, and reproducible research
 
