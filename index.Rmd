@@ -338,7 +338,9 @@ What academic software for data analysis do you often use in your research area?
 
 1. Bella
 
-xxx.
+- RStudio is often used for analyze the **correlationships** between different variables.
+
+- Excel is usually used for **collect** data and do some simple caculations.
 
 2. Wanqi
 
