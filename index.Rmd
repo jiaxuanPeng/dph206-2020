@@ -342,7 +342,7 @@ xxx.
 
 2. Wanqi
 
-xxx.
+SAS, R, stata
 
 3. Jane
 
